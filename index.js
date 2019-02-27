@@ -19,7 +19,7 @@ facts = [
         ]
 function johnLennonFacts(facts) {
   var extra = []
-  while (i<facts.length) {
+  while (let i=0; i<facts.length; i++) {
     extra.push(`${facts[i]}!!!`)
     return extra
   }
