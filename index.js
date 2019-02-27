@@ -31,6 +31,6 @@ function johnLennonFacts(facts) {
 
 function iLoveTheBeatles(number) {
   do {
-    if i.length=== 
+    if i.length=== number
   }
 }
