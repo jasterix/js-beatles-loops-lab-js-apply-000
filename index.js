@@ -30,7 +30,10 @@ function johnLennonFacts(facts) {
 
 
 function iLoveTheBeatles(number) {
+  var loves = []
   do {
-    if i.length=== number
+    loves.push("I love the Beatles!")
   }
+  i++
+  while ()
 }
