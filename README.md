@@ -10,13 +10,7 @@
 
 Make sure you run the tests with `learn`.
 
-function theBeatlesPlay(musicians, instruments) {
-  musicians = []
-  instruments = []
-  for (i=0; i< musicians.length; i++) {
-  return '${musicians[i]} plays ${instruments[i]}''
-  }
-}
+
 + Create a function `theBeatlesPlay`, which accepts two parameters- an array of
 musicians and an array of instruments. The body of the function should create an
 empty array stored in a variable. The function should also contain a for loop
