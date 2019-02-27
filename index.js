@@ -17,10 +17,12 @@ facts = [
         "He was a choir boy and boy scout",
         "He hated the sound of his own voice"
         ]
+let i=0
 function johnLennonFacts(facts) {
   var extra = []
-  while (let i=0; i<facts.length; i++) {
+  while (i<facts.length) {
     extra.push(`${facts[i]}!!!`)
     return extra
   }
+  i++
 }
