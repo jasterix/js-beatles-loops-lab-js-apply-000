@@ -13,7 +13,7 @@ Make sure you run the tests with `learn`.
 function theBeatlesPlay(musicians, instruments) {
   musicians = []
   instruments = []
-  for (i in musicians) {
+  for (i=0; i< musicians.legth) {
   return '${musicians[i]} plays ${instruments[i]}''
   }
 }
