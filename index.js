@@ -37,4 +37,5 @@ function iLoveTheBeatles(number) {
   i++;
   }
   while (i<15-number);
+  return loves;
 }
