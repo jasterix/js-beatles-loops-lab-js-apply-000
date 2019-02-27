@@ -10,6 +10,13 @@
 
 Make sure you run the tests with `learn`.
 
+function theBeatlesPlay(musicians, instruments) {
+  musicians = []
+  instruments = []
+  for i in musicians {
+  return '${musicians[i]} plays ${instruments[i]}''
+  }
+}
 + Create a function `theBeatlesPlay`, which accepts two parameters- an array of
 musicians and an array of instruments. The body of the function should create an
 empty array stored in a variable. The function should also contain a for loop
@@ -27,12 +34,17 @@ array of facts about John Lennon (note that it might not be exactly the
 following facts):
 
 ```js
+function johnLennonFacts(facts) {
+  
+
 const facts = [
   "He was the last Beatle to learn to drive",
   "He was never a vegetarian",
   "He was a choir boy and boy scout",
   "He hated the sound of his own voice"
 ];
+
+}
 ```
 
 Use a while loop to loop over the facts array and add `"!!!"` to the end of
